@@ -15,6 +15,8 @@
 
 8. Ahora podemos iniciar el proyecto en firebase con: ``` firebase init ``` , aqui puedes configurar que trabaje con github y deberas seguir las nstrucciones
 
+* OJO cuando te pregunte que repositorio quieres hacer publico debes colocar ```dist``` muy importante este paso!!!!
+
 * Puedes configurar el proyecto para que cada vez que se haga una PR se deploye desde la rama main
 
 * Puedes configurar el proyecto para que cada vez que se haga un push a la rama main se deploye
