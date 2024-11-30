@@ -17,13 +17,14 @@ function Login() {
   };
 
   return (
-    <div className='border-8 border-rose-600'>
-      <h2 className='text-red'>Iniciar Sesión</h2>
+    <div className='border-2 border-black flex justify-center items-center flex-col'>
+      <h2 className='text-2xl border-black border-2 rounded-xl m-6'>Iniciar Sesión</h2>
       {error && <p>{error}</p>}
-      <form onSubmit={handleSubmit}>
-        <div>
+      <form className='border-2 border-black rounded-xl p-4' onSubmit={handleSubmit}>
+        <div className=''>
           <label htmlFor="username">Nombre de usuario:</label>
           <input
+            className='border-2 border-gray-400 rounded-lg'
             type="text"
             id="username"
             value={username}
@@ -34,6 +35,7 @@ function Login() {
         <div>
           <label htmlFor="password">Contraseña:</label>
           <input
+            className='border-2 border-gray-400 rounded-lg'
             type="password"
             id="password"
             value={password}
@@ -41,7 +43,9 @@ function Login() {
             required
           />
         </div>
-        <button type="submit">Iniciar Sesión</button>
+        <button 
+        className='bg-blue-500 rounded-lg p-1'
+        type="submit">Iniciar Sesión</button>
       </form>
     </div>
   );
