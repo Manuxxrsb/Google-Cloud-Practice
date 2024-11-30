@@ -17,9 +17,9 @@ function Login() {
   };
 
   return (
-    <div style={{ maxWidth: '400px', margin: 'auto', padding: '1em', border: '1px solid #ccc', borderRadius: '5px' }}>
-      <h2>Iniciar Sesión</h2>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+    <div className='border-8 border-rose-600'>
+      <h2 className='text-red'>Iniciar Sesión</h2>
+      {error && <p>{error}</p>}
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="username">Nombre de usuario:</label>

@@ -21,6 +21,8 @@
 
 * Puedes configurar el proyecto para que cada vez que se haga un push a la rama main se deploye
 
+* una vez terminado esto debemos dirijirnos al archivo firebase.js y agregar el siguiente codigo debajo de rewrites para que se pueda deployar automaticamente: ```"predeploy":[npm run build]``` , esto hace que se inicie la React web
+
 9. Es recomendado tener andando la app para el deploy asi que ```npm run dev``` y luego ```firebase deploy```
 
 10. Dale al desarrollo de tu app
