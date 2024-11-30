@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+const Mensaje = "Mensaje de prueba";
+
 function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -13,6 +15,7 @@ function Login() {
       // Aquí puedes manejar la lógica de inicio de sesión, como hacer una llamada a una API
       console.log('Usuario:', username);
       console.log('Contraseña:', password);
+      console.log(Mensaje);
     }
   };
 
