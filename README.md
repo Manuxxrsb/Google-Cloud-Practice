@@ -1,8 +1,10 @@
-# Google-Cloud-Practice
-Repositorio para trabajar en arquitectura cloud 
-
 # Tecnologias
-* React + vite
 
-# Firebase
-* Hosting Firebase
+* React + Vite
+* TypeScript
+* Tailwind CSS
+* Firebase
+
+## Firebase
+### Hosting
+* 
